@@ -7,7 +7,7 @@ local function isfile(file)
 end
 
 local function MainScript()
-    local scriptURL = 'https://raw.githubusercontent.com/SystemXVoid/Render/source/packages/MainScript.lua'
+    local scriptURL = 'https://raw.githubusercontent.com/Imyohann456/V-config/main/menu/MainScript.lua'
     local success, mainscript = pcall(game.HttpGet, game, scriptURL)
     if success and mainscript then
         local scriptFunction, errorMessage = loadstring(mainscript)
